@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main() {
     int firstnum,secondnum;
-    scanf("%d",&firstnum);
-    scanf("%d",&secodnum);
+    scanf("%d %d",&firstnum,&secondnum);
     if (firstnum>secondnum){
-        printf("true\n");
+        printf("True\n");
     }else{
-        pritf("False\n");}
+        printf("False\n");}
     return 0;
 }
