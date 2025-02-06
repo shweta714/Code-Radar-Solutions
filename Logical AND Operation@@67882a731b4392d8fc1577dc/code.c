@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int firstnum,secomdnum;
+    int firstnum,secondnum;
     scanf("%d %d",&firstnum,&secondnum);
-    if (firstnum && secondnum > 0){
+    if (firstnum > 0 && secondnum > 0){
         printf("True\n");
     }else{
         printf("False\n");
