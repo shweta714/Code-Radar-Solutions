@@ -4,8 +4,8 @@ int main() {
     scanf("%d",&firstnum);
     scanf("%d",&secodnum);
     if (firstnum>secondnum){
-    return true;
+        printf("true\n");
     }else{
-    return false;}
+        pritf("False\n");}
     return 0;
 }
