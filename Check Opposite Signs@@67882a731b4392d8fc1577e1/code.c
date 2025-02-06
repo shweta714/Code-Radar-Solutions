@@ -2,7 +2,7 @@
 int main() {
     int firstnum,secondnum;
     scanf("%d %d",&firstnum,&secondnum);
-    if((firstnum>secondnum && firstnum<secondnum)||(firstnum<secondnum && firstnum>secondnum)){
+    if((firstnum>0 && firstnum<0)||(firstnum<0 && firstnum>0)){
         printf("True\n");
     }else{
         printf("False\n");
