@@ -4,8 +4,7 @@ int main() {
     scanf("%d %d",&firstum,&secondnum);
     if(firstnum<secondnum){
         printf("True\n");
-    }
-    else{
+    }else{
         printf("False\n");
     }
     return 0;
