@@ -2,9 +2,11 @@
 int main(){
     int number;
     scanf("%d",&number);
-    if(number||1){
+    int msb = 1<<31;
+    if(number & msb){
         printf("Set");
     }else{
         printf("Not Set");
     }
+    return 0;
 }
