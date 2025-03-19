@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,;
+    int a;
     scanf("%d",&a);
     if((n%5==0)&&(n%11==0)){
         printf("Divisible");
