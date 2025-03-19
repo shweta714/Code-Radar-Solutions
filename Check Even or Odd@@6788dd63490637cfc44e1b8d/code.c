@@ -5,4 +5,5 @@ int main(){
     if(n%=0){
         printf("Even");
     }
+    return 0;
 }
