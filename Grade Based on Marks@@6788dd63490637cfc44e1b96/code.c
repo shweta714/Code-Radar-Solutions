@@ -5,5 +5,8 @@ int main(){
     if(m>=90){
         printf("A");
     }
+        if(90>m>=80){
+        printf("B");
+    }
 
 }
