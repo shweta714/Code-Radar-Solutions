@@ -8,4 +8,5 @@ int main(){
     else {
     printf("Out Of Range");
     }
+    return 0;
 }
